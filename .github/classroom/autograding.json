@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test summary content",
+      "setup": "",
+      "run": "cat summary.md",
+      "input": "",
+      "output": "Github Classroom 学习总结",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test cargo project initialized",
+      "setup": "",
+      "run": "cat Cargo.toml",
+      "input": "",
+      "output": "[package]",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
